@@ -3,7 +3,7 @@ services:
   jenkins:
     # image: 'bitnami/jenkins:2'
     # image: dirane/jenkins-docker-ansible-clair
-    image: eazytraining/jenkins
+    image: dirane/jenkins
     ports:
       - '8080:8080'
       - '443:8443'
